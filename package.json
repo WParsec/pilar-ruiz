@@ -1,0 +1,16 @@
+{
+  "name": "pilar-ruiz",
+  "version": "1.0.0",
+  "description": "BTC address",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/sass:public/css",
+    "start": "sass --watch src/sass:public/css & live-server"
+  },
+  "author": "WParsec",
+  "license": "ISC",
+  "dependencies": {
+    "flag-icons": "^6.6.6",
+    "sass": "^1.59.2"
+  }
+}
