@@ -43,6 +43,7 @@ section {
 
 .img-wrap {
     display: flex;
+    padding-top: 4rem;
     
     & img {
         object-fit: cover;
@@ -60,7 +61,6 @@ section {
     align-items: center;
     height: 100%;
     gap: 4rem;
-    margin-top: 4rem;
 }
 
 .btc-wrap {
