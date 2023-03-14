@@ -1,10 +1,13 @@
-@import "/node_modules/flag-icons/css/flag-icons.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,600;1,400&family=Pacifico&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat Alternates", sans-serif;
+}
+
+main {
+  background-color: rgba(255, 242, 225, 0.486);
 }
 
 h1 {
@@ -14,6 +17,7 @@ h1 {
 button {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 section {
@@ -92,6 +96,11 @@ section {
   width: 100%;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+.language-wrap div img {
+  width: 100%;
+  max-width: 50px;
 }
 
 .text-wrap {
