@@ -102,11 +102,11 @@ section {
         display: flex;
         justify-content: center;
         cursor: pointer;
+    }
 
-        & img {
-            width: 100%;
-            max-width: 50px;
-        }
+    & .flag {
+        width: 100%;
+        max-width: 40px;
     }
 }
 

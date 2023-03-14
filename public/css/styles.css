@@ -98,9 +98,9 @@ section {
   justify-content: center;
   cursor: pointer;
 }
-.language-wrap div img {
+.language-wrap .flag {
   width: 100%;
-  max-width: 50px;
+  max-width: 40px;
 }
 
 .text-wrap {
